@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serverroot | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HERO / OPENING SCREEN -->
+    <section class="hero">
+        <img src="img/avatar.jpg" alt="Serverroot Visual" id="heroImage" class="hero-bg">
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+            <h1>Serverroot</h1>
+            <p>.NET Developer | System & Network Focused</p>
+            <a href="cv.pdf" class="btn" download>Download CV</a>
+            <p class="hero-note">Click the image to explore</p>
+        </div>
+    </section>
+
+    <!-- MAIN CONTENT -->
+    <div id="mainContent" class="hidden-content">
+
+        <section class="about">
+            <h2>About Me</h2>
+            <p>
+                I am a .NET developer focused on system-level and network-based applications.
+                I build tools that interact with operating systems, monitor network data,
+                and process structured information in a practical way.
+            </p>
+        </section>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <span>C# / .NET</span>
+                <span>SQLite / Dapper</span>
+                <span>System Programming</span>
+                <span>Network Monitoring</span>
+                <span>Linux / Windows</span>
+            </div>
+        </section>
+
+        <section class="projects">
+            <h2>Projects</h2>
+
+            <div class="project">
+                <h3>Network Logger</h3>
+                <p>
+                    A network monitoring tool that captures active TCP/UDP connections
+                    and stores structured metadata in SQLite for analysis.
+                </p>
+                <a href="https://github.com/SerTinai/Network-Traffic-Logger" target="_blank">
+                    View on GitHub
+                </a>
+            </div>
+
+            <div class="project">
+                <h3>GETHash256</h3>
+                <p>
+                    A static analysis tool focused on SHA-256 hashing, strings extraction,
+                    and structured output for executable inspection.
+                </p>
+                <a href="https://github.com/SerTinai/GETHash256" target="_blank">
+                    View on GitHub
+                </a>
+            </div>
+
+            <div class="project">
+                <h3>ParrotOS Safe System Updater</h3>
+                <p>
+                    A system update utility built with C# and Bash for ParrotOS/Debian-based systems,
+                    featuring validation checks, logging, and safe update flow.
+                </p>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2>Contact</h2>
+            <p>
+                GitHub:
+                <a href="https://github.com/SerTinai" target="_blank">
+                    github.com/SerTinai
+                </a>
+            </p>
+            <p>Email: sroot7827@gmail.com</p>
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
